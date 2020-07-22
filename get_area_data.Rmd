@@ -15,7 +15,7 @@ source("utils.R")
 areas <- getKnownAreas()
 resorts <- areas$resorts
 area <- lapply(resorts, getAreaData)
-saveRDS(area, file = "/tmp_shared/area.rds")
+saveRDS(area, file = "~/tmp_shared/area.rds")
 ```
 
 Preview New Data:
